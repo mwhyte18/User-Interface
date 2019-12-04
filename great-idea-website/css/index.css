@@ -63,4 +63,122 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here!*/
+*{
+	max-width: 100%;
+}
+.wholeContainer{
+	margin: 0 auto;
+	border: 1px solid black;
+	margin: 1% 20% 5% 20%;
+	padding: 20px;
+}
+/*Nav bar */
+	nav a{
+		text-decoration: none;
+		margin-right: 50px;
+		color: gray;
+		vertical-align: middle;
+}
+.navbar{
+	margin: 0 0 0 20%;
+	
+}
+.logo{
+	
+}
+
+
+
+/* sections */
+header{
+	display: inline-block;
+	border: 1px solid blue;
+	width: 100%;
+}
+header div{
+	display: inline-block;
+	width: 40%;
+	margin: 3.5% 3.5% 3.5% 3.5%;
+	text-align: left;
+}
+header .titleButton{
+	box-sizing: border-box;
+	padding: 20%;
+}
+.mainTitle{
+	padding: 20px;
+	display: inline-block;
+}
+button{
+	display: inline-block;
+}
+h1{
+	font-size: 40px;
+}
+.topSection{
+	display: inline-block;
+	border: 1px solid green;
+	width: 100%;
+}
+.topSection .features{
+	text-align: left;
+	display: inline-block;
+	width: 46.7%;
+	margin: 3.5% 2.5% 3.5% 0;
+
+}
+.topSection .about{
+	text-align: left;
+	display: inline-block;
+	width: 46.7%;
+	margin: 3.5% 0% 3.5% 3.5%;
+}
+}
+.middleImage{
+	display: inline-block;
+	width: 100%;
+	border: 1px solid gold;
+	text-align: center;
+	object-fit: cover;
+}
+.middle-img{
+	width:100%;
+}
+
+.middleSection{
+	display: inline-block;
+	border: 1px solid purple;
+	width: 100%;
+}
+.middleSection .services{
+	text-align: left;
+	display: inline-block;
+	width: 28.4%;
+	margin: 3.5% 3.5% 3.5% 0;
+}
+.middleSection .product{
+	text-align: left;
+	display: inline-block;
+	width: 28.4%;
+	margin: 3.5% 3.5%;
+}
+.middleSection .vision{
+	text-align: left;
+	display: inline-block;
+	width: 28.4%;
+	margin: 3.5% 0 3.5% 3.5%;
+}
+.bottomSection{
+	display: inline-block;
+	display: inline-block;
+	border: 1px solid purple;
+	width: 100%;
+
+}
+.contact{
+	display: inline-block;
+	display: inline-block;
+	border: 1px solid purple;
+	width: 100%;
+}
