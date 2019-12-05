@@ -71,24 +71,30 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	border: 1px solid black;
 	margin: 1% 20% 5% 20%;
-	padding: 20px;
+	padding: 40px;
 }
 /*Nav bar */
-	nav a{
-		text-decoration: none;
-		margin-right: 50px;
-		color: gray;
-		vertical-align: middle;
-}
-.navbar{
-	margin: 0 0 0 20%;
-	
-}
-.logo{
-	
-}
+nav{
+	vertical-align: middle;
+	}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	padding: 15px 30px;
+	}
+	.logo {
+	display: inline-block;
+	margin-left: 1.2%;
+	}
 
-
+hr.thin {
+	height: 1px;
+	border: 0;
+	color: #333;
+	background-color: #333;
+	width: 100%;
+	}
 
 /* sections */
 header{
@@ -98,14 +104,26 @@ header{
 }
 header div{
 	display: inline-block;
-	width: 40%;
-	margin: 3.5% 3.5% 3.5% 3.5%;
-	text-align: left;
+	text-align: center;
+	margin: 0 15%;
+	padding: 0 20px 0 20px;
 }
-header .titleButton{
-	box-sizing: border-box;
-	padding: 20%;
+h1{
+	display: inline-block;
+	padding: 0 20px 50px 20px;
+	font-size: 60px;
 }
+header img{
+	display: inline-block;
+}
+.mainTitle a{
+	padding: 5px 25px;
+	font-size: 15px;
+	text-decoration:none;
+	border: 1px solid black;
+	color: black;
+}
+
 .mainTitle{
 	padding: 20px;
 	display: inline-block;
@@ -113,9 +131,7 @@ header .titleButton{
 button{
 	display: inline-block;
 }
-h1{
-	font-size: 40px;
-}
+
 .topSection{
 	display: inline-block;
 	border: 1px solid green;
@@ -128,6 +144,7 @@ h1{
 	margin: 3.5% 2.5% 3.5% 0;
 
 }
+
 .topSection .about{
 	text-align: left;
 	display: inline-block;
@@ -178,7 +195,15 @@ h1{
 }
 .contact{
 	display: inline-block;
-	display: inline-block;
 	border: 1px solid purple;
 	width: 100%;
+	margin: 3.5% 3.5% 0 0;
+
+}
+footer{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	font-size: 10px;
+	margin: 2% 0 2% 0;
 }
