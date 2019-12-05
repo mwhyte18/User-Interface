@@ -63,4 +63,161 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here!*/
+*{
+	max-width: 100%;
+}
+.wholeContainer{
+	margin: 0 auto;
+	margin: 1% 20% 5% 20%;
+	padding: 40px;
+	border: 1px solid black;
+}
+/*Nav bar */
+nav{
+	vertical-align: middle;
+	background-color: lightgrey;
+	position: sticky;  
+	top: 0;
+	border-radius: 25px;
+
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 15px 30px;
+}
+.logo {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 20%;
+}
+
+hr.thin {
+	height: 1px;
+	border: 0;
+	color: #333;
+	background-color: #333;
+	width: 100%;
+}
+.link-1 {
+	transition: 0.3s ease;
+	padding: 20px 0;
+	margin: 0 20px;
+}
+.link-1:hover {
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+	padding: 6px 0; 
+}
+/* sections */
+header{
+	height: 470px;
+	display: inline-block;
+	width: 100%;
+}
+header div{
+	display: inline-block;
+	text-align: center;
+	margin: 0 15%;
+	padding: 0 20px 0 20px;
+}
+h1{
+	display: inline-block;
+	font-size: 60px;
+	vertical-align: middle;
+}
+header img{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 34px;
+}
+header a{
+	border: 1px solid black;
+	padding: 10px 35px 10px 35px;
+}
+.mainTitle a{
+	padding: 5px 25px;
+	font-size: 15px;
+	text-decoration:none;
+	color: black;
+}
+
+.mainTitle{
+	padding: 20px;
+	display: inline-block;
+}
+button{
+	display: inline-block;
+}
+
+.topSection{
+	display: inline-block;
+	width: 100%;
+}
+.topSection .features{
+	text-align: left;
+	display: inline-block;
+	width: 46.7%;
+	margin: 3.5% 2.5% 3.5% 0;
+
+}
+
+.topSection .about{
+	text-align: left;
+	display: inline-block;
+	width: 46.7%;
+	margin: 3.5% 0% 3.5% 3.5%;
+}
+.middleImage{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	object-fit: cover;
+}
+.middle-img{
+	width:100%;
+}
+
+.middleSection{
+	display: inline-block;
+	width: 100%;
+}
+.middleSection .services{
+	text-align: left;
+	display: inline-block;
+	width: 28.4%;
+	margin: 3.5% 3.5% 3.5% 0;
+}
+.middleSection .product{
+	text-align: left;
+	display: inline-block;
+	width: 28.4%;
+	margin: 3.5% 3.5%;
+}
+.middleSection .vision{
+	text-align: left;
+	display: inline-block;
+	width: 28.4%;
+	margin: 3.5% 0 3.5% 3.5%;
+}
+.bottomSection{
+	display: inline-block;
+	display: inline-block;
+	width: 100%;
+
+}
+.contact{
+	display: inline-block;
+	width: 100%;
+	margin: 3.5% 3.5% 0 0;
+
+}
+footer{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	font-size: 10px;
+	margin: 2% 0 2% 0;
+}
