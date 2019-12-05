@@ -81,18 +81,18 @@ nav{
 	top: 0;
 	border-radius: 25px;
 
-	}
+}
 nav a{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
 	padding: 15px 30px;
-	}
+}
 .logo {
 	vertical-align: middle;
 	display: inline-block;
 	margin-left: 20%;
-	}
+}
 
 hr.thin {
 	height: 1px;
@@ -100,12 +100,12 @@ hr.thin {
 	color: #333;
 	background-color: #333;
 	width: 100%;
-	}
+}
 .link-1 {
 	transition: 0.3s ease;
 	padding: 20px 0;
 	margin: 0 20px;
-	  }
+}
 .link-1:hover {
 	border-top: 4px solid #ffffff;
 	border-bottom: 4px solid #ffffff;
@@ -169,7 +169,6 @@ button{
 	display: inline-block;
 	width: 46.7%;
 	margin: 3.5% 0% 3.5% 3.5%;
-}
 }
 .middleImage{
 	display: inline-block;
