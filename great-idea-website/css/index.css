@@ -91,7 +91,7 @@ nav a{
 .logo {
 	vertical-align: middle;
 	display: inline-block;
-	margin-left: 10%;
+	margin-left: 20%;
 	}
 
 hr.thin {
@@ -101,7 +101,16 @@ hr.thin {
 	background-color: #333;
 	width: 100%;
 	}
-
+.link-1 {
+	transition: 0.3s ease;
+	padding: 20px 0;
+	margin: 0 20px;
+	  }
+.link-1:hover {
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+	padding: 6px 0; 
+}
 /* sections */
 header{
 	height: 470px;
