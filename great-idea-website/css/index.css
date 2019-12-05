@@ -69,23 +69,29 @@ h1, h2, h3, h4, h5 {
 }
 .wholeContainer{
 	margin: 0 auto;
-	border: 1px solid black;
 	margin: 1% 20% 5% 20%;
 	padding: 40px;
+	border: 1px solid black;
 }
 /*Nav bar */
 nav{
 	vertical-align: middle;
+	background-color: lightgrey;
+	position: sticky;  
+	top: 0;
+	border-radius: 25px;
+
 	}
 nav a{
 	display: inline-block;
 	text-decoration: none;
-	color: grey;
+	color: black;
 	padding: 15px 30px;
 	}
-	.logo {
+.logo {
+	vertical-align: middle;
 	display: inline-block;
-	margin-left: 1.2%;
+	margin-left: 10%;
 	}
 
 hr.thin {
@@ -98,8 +104,8 @@ hr.thin {
 
 /* sections */
 header{
+	height: 470px;
 	display: inline-block;
-	border: 1px solid blue;
 	width: 100%;
 }
 header div{
@@ -110,17 +116,22 @@ header div{
 }
 h1{
 	display: inline-block;
-	padding: 0 20px 50px 20px;
 	font-size: 60px;
+	vertical-align: middle;
 }
 header img{
 	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 34px;
+}
+header a{
+	border: 1px solid black;
+	padding: 10px 35px 10px 35px;
 }
 .mainTitle a{
 	padding: 5px 25px;
 	font-size: 15px;
 	text-decoration:none;
-	border: 1px solid black;
 	color: black;
 }
 
@@ -134,7 +145,6 @@ button{
 
 .topSection{
 	display: inline-block;
-	border: 1px solid green;
 	width: 100%;
 }
 .topSection .features{
@@ -155,7 +165,6 @@ button{
 .middleImage{
 	display: inline-block;
 	width: 100%;
-	border: 1px solid gold;
 	text-align: center;
 	object-fit: cover;
 }
@@ -165,7 +174,6 @@ button{
 
 .middleSection{
 	display: inline-block;
-	border: 1px solid purple;
 	width: 100%;
 }
 .middleSection .services{
@@ -189,13 +197,11 @@ button{
 .bottomSection{
 	display: inline-block;
 	display: inline-block;
-	border: 1px solid purple;
 	width: 100%;
 
 }
 .contact{
 	display: inline-block;
-	border: 1px solid purple;
 	width: 100%;
 	margin: 3.5% 3.5% 0 0;
 
